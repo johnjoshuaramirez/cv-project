@@ -1,0 +1,89 @@
+.card {
+   border: 1px solid gray;
+   border-radius: 0.5rem;
+   padding: 1rem;
+}
+
+.card h2,
+.form h3,
+.input,
+.textarea {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h2 {
+   margin-bottom: 1rem;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: .5rem;
+}
+
+.form h3 {
+   padding: 0.25rem 0 0.25rem 0;
+}
+
+.input {
+   background: none;
+   border: 1px solid gray;
+   border-radius: 4px;
+   padding: 0.5rem;
+   width: 100%;
+}
+
+.experience {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+.skills {
+   min-height: fit-content;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+.group {
+   display: flex;
+   justify-content: space-between;
+}
+
+.textarea {
+   background: none;
+   min-width: 100%;
+   min-height: 5rem;
+   border-radius: 4px;
+   padding: 0.5rem;
+   resize: none;
+   overflow: auto;
+}
+
+.remove {
+   background: none;
+   padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+   border: 1px solid gray;
+   border-radius: 4px;
+   white-space: nowrap;
+   margin-left: 8px;
+   cursor: pointer;
+}
+
+.remove:hover {
+   background: red;
+}
+
+.new {
+   background: none;
+   border: 1px solid gray;
+   width: 4rem;
+   padding: 0.35rem;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.new:hover {
+   background: green;
+}

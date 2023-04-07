@@ -1,0 +1,36 @@
+.card {
+   border: 1px solid gray;
+   border-radius: 0.5rem;
+   padding: 1rem;
+}
+
+.card h2,
+.form h3,
+.input {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h2 {
+   margin-bottom: 1rem;
+   
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.group {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.input {
+   background: none;
+   border: 1px solid gray;
+   padding: 0.5rem;
+   border-radius: 4px;
+   width: 100%;
+}

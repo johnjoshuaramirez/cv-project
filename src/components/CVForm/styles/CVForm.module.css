@@ -1,0 +1,6 @@
+.CVForm {
+   min-width: 20rem;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}

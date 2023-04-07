@@ -1,0 +1,15 @@
+.CVView {
+   border: 1px solid white;
+   border-radius: 8px;
+   height: calc(100vh - 2rem);
+   max-width: 500px;
+   width: 500px;
+   position: sticky;
+   top: 1rem;
+   font-size: 2vh;
+}
+
+.group {
+   display: flex
+}
+

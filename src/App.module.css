@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: gainsboro;
+}
+
+.body {
+  background-color: black;
+  min-height: 100vh;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}

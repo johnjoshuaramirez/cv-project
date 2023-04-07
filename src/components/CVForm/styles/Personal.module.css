@@ -1,0 +1,48 @@
+.personal {
+   border: 1px solid gray;
+   border-radius: 0.5rem;
+   padding: 1rem;
+}
+
+.personal h2,
+.input,
+.textarea {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.personal h2 {
+   margin-bottom: 1rem;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.input {
+   background: none;
+   border: 1px solid gray;
+   padding: 0.5rem;
+   border-radius: 4px;
+}
+
+.group {
+   display: grid;
+   grid-template-columns: 1fr 1fr; 
+   gap: 0.5rem;
+}
+
+.about {
+   margin-top: 1rem;
+}
+
+.textarea {
+   background: none;
+   min-width: 100%;
+   min-height: 5rem;
+   border-radius: 4px;
+   padding: 0.5rem;
+   resize: none;
+   overflow: auto;
+}
